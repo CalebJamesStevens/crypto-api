@@ -1,0 +1,62 @@
+
+body {
+  width: auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333333;
+  color: antiquewhite;
+}
+
+.coin-image {
+  height: 2.25rem;
+  width: 2.25rem;
+}
+
+.coin-data-container {
+  display: flex;
+  align-items: center;
+  border-block-end: .1rem solid white;
+}
+
+.coin-data-header {
+  text-decoration: underline;
+}
+
+.coin-data-container div {
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.coin-img-container {
+  width: 5rem;
+
+}
+
+.coin-name {
+  width: 10rem;
+}
+
+.coin-current-price {
+  width: 10rem;
+
+}
+
+.coin-price-change-24hr {
+  width: 10rem;
+
+}
+
+.coin-price-change-percentage {
+  width: 10rem;
+
+}
+
+.coin-last-updated {
+  width: 15rem;
+
+}
